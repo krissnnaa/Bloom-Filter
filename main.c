@@ -16,6 +16,7 @@ unsigned int FNV_Hash(unsigned char *str, unsigned int length)
       hash = hash ^ (*str);
    }
 
+
    return hash;
 }
 
